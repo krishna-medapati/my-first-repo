@@ -1,0 +1,20 @@
+.dropdown li {
+    list-style: none;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+}
+
+.dropdown li:hover .submenu {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.dropdown .submenu {
+    padding: 20px;
+}

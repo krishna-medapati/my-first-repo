@@ -1,0 +1,53 @@
+/* Remove default list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Main menu styling */
+.Dropdown {
+    display: flex;
+    gap: 20px;
+    background-color: #333;
+}
+
+.Mainmenu {
+    position: relative;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Change color on hover */
+.Mainmenu:hover {
+    background-color: #444;
+}
+
+/* Submenu hidden by default */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* Below the parent */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    min-width: 150px;
+    z-index: 10;
+}
+
+.submenu li {
+    padding: 8px 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+.submenu li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show submenu on hover of parent */
+.Mainmenu:hover .submenu {
+    display: block;
+}

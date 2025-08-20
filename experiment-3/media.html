@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Column Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .sidebar {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      width: 25%;
+    }
+
+    .main {
+      background: #ecf0f1;
+      padding: 20px;
+      width: 75%;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .sidebar,
+      .main {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>Sidebar</h2>
+      <p>Links or navigation.</p>
+    </div>
+    <div class="main">
+      <h1>Main Content</h1>
+      <p>Main area content.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

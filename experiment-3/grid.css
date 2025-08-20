@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+  width: 200px;
+  display: inline-block;
+}
+
+.container img {
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  /* Prevents dragging/saving */
+}
+
+.text {
+  display: none;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+}
+
+.container:hover .text {
+  display: block;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Newsletter Subscription</title>
+    <link rel="stylesheet" href="newspaper.css" />
+</head>
+
+<body>
+    <main class="page">
+        <section class="newsletter-card" aria-labelledby="nl-heading">
+            <h2 id="nl-heading" class="nl-heading">Join our newsletter</h2>
+            <p class="nl-sub">Get weekly tips, freebies, and updates — no spam, unsubscribe anytime.</p>
+
+            <form class="nl-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Subscribed!');">
+                <label for="nl-email" class="sr-only">Email address</label>
+                <input id="nl-email" name="email" type="email" required placeholder="Enter your email address"
+                    aria-label="Email address" />
+                <button type="submit" class="nl-btn">Subscribe</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

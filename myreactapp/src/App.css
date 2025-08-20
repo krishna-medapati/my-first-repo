@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f0f8ff;
+}
+
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin: 0;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+/* 🎓 Table Styling */
+table {
+  background-color: #fff;
+  color: #000;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+thead {
+  background-color: #555;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #eef;
+}
