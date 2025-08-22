@@ -1,1 +1,1 @@
-hi all i am just trying the git hub
+hello guys!,this is krishna ,i am just trying to learn github.
